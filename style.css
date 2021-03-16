@@ -1,0 +1,68 @@
+#root {
+   background: rgb(2, 0, 36);
+   background: linear-gradient(
+      6deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 9, 21, 1) 0%,
+      rgba(196, 29, 58, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+   );
+   min-height: 100vh;
+}
+.container {
+   width: 300px;
+   margin: 0 auto;
+}
+.title {
+   text-align: center;
+   color: aliceblue;
+}
+#enter_form {
+   position: relative;
+}
+#enter_field {
+   width: 99%;
+   height: 20px;
+}
+#add_btn {
+   position: absolute;
+   top: 0;
+   right: 0;
+   color: rgb(16, 107, 224);
+   font-weight: bolder;
+}
+.wrapper {
+   width: 100%;
+   height: max-content;
+   background: aliceblue;
+}
+.list {
+   list-style: none;
+   width: 90%;
+}
+.element {
+   width: 80%;
+   padding: 20px 0;
+   color: gray;
+   font-weight: 500;
+   border-bottom: 1px solid gray;
+}
+.delete {
+   width: 20px;
+   height: 20px;
+   background: red;
+   padding: 0;
+   color: white;
+}
+input[type="checkbox"] {
+   background: aliceblue;
+}
+.clear {
+   color: red;
+   border: none;
+   background: none;
+}
+.done {
+   color: red;
+   text-decoration: line-through;
+}
