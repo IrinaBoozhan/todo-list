@@ -1,3 +1,6 @@
+* {
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 #root {
    background: rgb(2, 0, 36);
    background: linear-gradient(
@@ -22,7 +25,7 @@
 }
 #enter_field {
    width: 99%;
-   height: 20px;
+   height: 30px;
 }
 #add_btn {
    position: absolute;
@@ -30,10 +33,12 @@
    right: 0;
    color: rgb(16, 107, 224);
    font-weight: bolder;
+   padding-top: 10px;
 }
 .wrapper {
    width: 100%;
-   height: max-content;
+   height: content;
+   height: 150px;
    background: aliceblue;
 }
 .list {
@@ -42,7 +47,7 @@
 }
 .element {
    width: 80%;
-   padding: 20px 0;
+   padding: 15px 0;
    color: gray;
    font-weight: 500;
    border-bottom: 1px solid gray;
